@@ -1,0 +1,11 @@
+Client-side:
+	- Grab the response as JSON, filter out the address and add it to the URL
+
+
+
+
+
+Server-side:
+	- Need to find a better fix for the address generator (remove time.sleep function)
+	- Add a database to store all the addresses and connect them to users (using cookies?)
+	
