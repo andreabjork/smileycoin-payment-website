@@ -3,14 +3,10 @@ $(function() {
 	// to start the smileycoin daemon.
 	// This is a temporary fix to accommodate some bugs at the server.
 	getAddress();
+
+	$("#addressbtn").click(getAddress);
+
 });
-
-
-
-$("#addressbtn").click(function(){
-	getAddress();
-}
-
 
 var getAddress = function() {
 	$.ajax({
