@@ -1,12 +1,3 @@
-$(function() {
-	// Fire the request to the server once as the page loads
-	// to start the smileycoin daemon.
-	// This is a temporary fix to accommodate some bugs at the server.
-	getAddress();
-
-	$("#addressbtn").click(getAddress);
-
-});
 
 var getAddress = function() {
 	$.ajax({
@@ -15,7 +6,7 @@ var getAddress = function() {
 		type:"GET",
 		success: function(result){
 			var newAddress = extractAddress(result);
-			console.log("this is the new address "+newAddress);
+			console.log("this is the new address " + newAddress);
 			var URL = makeNewUrl(newAddress);
 			updatePaymentButton(URL);
 			updateQRCode(URL);
