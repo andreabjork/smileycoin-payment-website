@@ -13,7 +13,7 @@ $('#Booking_Payment_PaymentMethod').on('change', function(){
 			$("#smileyamount").fadeIn("fast");
 			$("#payWithSMLY").fadeIn("fast");
 			$("#qrcode").fadeIn("fast");
-			getAddress;
+			getAddress();
 			
 			 
 		}
