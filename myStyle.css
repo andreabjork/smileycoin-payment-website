@@ -1,0 +1,16 @@
+body 	{background: #EDEDED;}
+h4 		{color:#E4AE1C;
+	   	 font-family:arial;}
+label 	{font-weight:bold;
+       	 font-family:arial;
+         color:#525250;
+         font-size: 12px;}
+ p 		{font-family:sans;
+      	 font-size:13px;}
+#verifyBox{
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	background-color: red;
+	width: 130px;
+	height: 40px;}
